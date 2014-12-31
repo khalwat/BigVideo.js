@@ -1,26 +1,27 @@
-# BigVideo.js
-## The jQuery Plugin for Big Background Video (and Images)
+# BigVideoLite.js
+## The jQuery Plugin for Big Background Video (and Images) sans jquery-ui
 
-Find out everything you need to know about how to use this plugin on its demo page at <http://dfcb.github.com/BigVideo.js>.
+This is a fork of the BigVideo.js project from John Polacek @johnpolacek, which removes the player controls entirely.  BigVideoList is for background video/images only, with no user interaction.  It's really just a stripped down version of BigVideo.js.
+
+This also allows use to remove the dependency on the rather bulky jquery-ui plugin.
 
 ## Installation
-If you're using [Bower](http://bower.io) (and you should be!) installing BigVideo and its dependencies is simply:
+If you're using [Bower](http://bower.io) (and you should be!) installing BigVideoLite and its dependencies is simply:
 
 ```
-bower install BigVideo.js
+bower install BigVideoLite
 ```
 
 This downloads and installs BigVideo to the ``bower_components`` folder. Add to your page the usual way with script tags, or using [RequireJS](#requirejs).
 
-If you'd rather download things manually, you can grab the latest zip from that lovely button on the right ([or this link](https://github.com/dfcb/BigVideo.js/archive/master.zip)). You will also need the dependencies:
+If you'd rather download things manually, you can grab the latest zip from that lovely button on the right ([or this link](https://github.com/khalwat/BigVideoLite.js/archive/master.zip)). You will also need the dependencies:
 
 * [jQuery 1.7.2 or higher](http://jquery.com/download)
-* [jQuery UI slider 1.8.22 or higher](http://jqueryui.com/download/#!components=1110000000000000100000000000000000)
 * [Video.js 3.2 or higher](http://www.videojs.com/)
 * [imagesloaded 2.1.1 or higher](http://desandro.github.io/imagesloaded/)
 
 ## RequireJS
-If [RequireJS](http://requirejs.org/) is detected, BigVideo.js defines itself as an anonymous module. Require it as:
+If [RequireJS](http://requirejs.org/) is detected, BigVideoLite defines itself as an anonymous module. Require it as:
 
 ```javascript
 require(['path/to/bigvideo'], function(bigvideo) {
@@ -33,13 +34,10 @@ Make sure your [require config](http://requirejs.org/docs/api.html#config) is se
 ```javascript
 require.config({
 	paths: {
-		"BigVideo": "bower_components/BigVideo.js/lib/bigvideo",
+		"BigVideoLite": "bower_components/BigVideoLite/lib/bigvideolite",
 		"jquery": "bower_components/jquery/jquery",
-		"jquery-ui": "bower_components/jquery-ui/ui/jquery-ui",
 		"videojs": "bower_components/video.js/video",
 		"imagesloaded": "bower_components/imagesloaded/imagesloaded",
-		"eventEmitter/EventEmitter": "bower_components/eventEmitter/EventEmitter",
-		"eventie/eventie": "bower_components/eventie/eventie"
 	},
 	shim: {
 		"videojs": {exports: 'videojs'}
@@ -47,7 +45,7 @@ require.config({
 });
 ```
 
-This is to ensure that BigVideo and all its dependencies get the right paths, and that RequireJS knows how to reference Video.js.
+This is to ensure that BigVideoLite and all its dependencies get the right paths, and that RequireJS knows how to reference Video.js.
 
 * * *
 ### Created by John Polacek 
