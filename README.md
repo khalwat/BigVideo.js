@@ -3,16 +3,16 @@
 
 This is a fork of the BigVideo.js project from John Polacek @johnpolacek, which removes the player controls entirely.  BigVideoList is for background video/images only, with no user interaction.  It's really just a stripped down version of BigVideo.js.
 
-This also allows use to remove the dependency on the rather bulky jquery-ui plugin.
+This also allows use to remove the dependency on the rather bulky jquery-ui plugin, when all you need is video/images playing in the background.
 
 ## Installation
-If you're using [Bower](http://bower.io) (and you should be!) installing BigVideoLite and its dependencies is simply:
+If you're using [Bower](http://bower.io) (and you should be!) installing bigvideo-lite and its dependencies is simply:
 
 ```
-bower install BigVideoLite
+bower install bigvideo-lite
 ```
 
-This downloads and installs BigVideo to the ``bower_components`` folder. Add to your page the usual way with script tags, or using [RequireJS](#requirejs).
+This downloads and installs bigvideo-lite to the ``bower_components`` folder. Add to your page the usual way with script tags, or using [RequireJS](#requirejs).
 
 If you'd rather download things manually, you can grab the latest zip from that lovely button on the right ([or this link](https://github.com/khalwat/bigvideo-lite/archive/master.zip)). You will also need the dependencies:
 
