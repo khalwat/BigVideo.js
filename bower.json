@@ -1,12 +1,12 @@
 {
-  "name": "BigVideoLite",
+  "name": "bigvideo-lite",
   "version": "1.1.4",
-  "homepage": "https://github.com/khalwat/BigVideoLite",
+  "homepage": "https://github.com/khalwat/bigvideo-lite",
   "authors": [
     "Andrew Welch <andrew@megalomaniac.com>"
   ],
   "description": "The jQuery Plugin for Big Background Video (and Images) sans jquery-ui",
-  "main": "lib/bigvideolite.js",
+  "main": "lib/bigvideo-lite.js",
   "keywords": [
     "video",
     "background"
