@@ -1,0 +1,27 @@
+{
+    "name": "BigVideoLite",
+    "title": "BigVideoLite",
+    "description": "The jQuery Plugin for Big Background Video (and Images) sans jquery-ui",
+    "keywords": [
+        "video",
+        "background"
+    ],
+    "version": "1.1.4",
+    "author": {
+        "name": "Andrew Welch",
+        "url": "http://megalomaniac.com"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/khalwat/BigVideoLite/blob/master/README.md"
+        }
+    ],
+    "homepage": "https://github.com/khalwat/BigVideoLite",
+    "demo": "https://github.com/khalwat/BigVideoLite",
+    "dependencies": {
+        "jquery": ">=1.7.2",
+        "videojs":">=3.2.0",
+        "imagesloaded":">=2.1.1"
+    }
+}
